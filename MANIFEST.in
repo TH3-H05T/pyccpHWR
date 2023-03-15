@@ -1,5 +1,5 @@
 #include tests/test*py
-#include /*py
+#include *py
 #include objutils/tests/ELFFiles/*
 #include objutils/tests/elfHeaders.json
 

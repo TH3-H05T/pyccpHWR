@@ -28,8 +28,8 @@ import enum
 from pprint import pprint
 import struct
 
-from pyccp import ccp
-from pyccp.logger import Logger
+from pyccpHWR import ccp
+from pyccpHWR.logger import Logger
 
 
 def getLEWord(payload):
@@ -55,7 +55,7 @@ class Slave(object):
         self._mta = 0x0000
         self.ctr = 0x00
         self.setState(SlaveState.DISCONNECTED)
-        self.logger = Logger("pyccp.slave")
+        self.logger = Logger("pyccpHWR.slave")
         # Ignore telegrams if not connected.
 
     def receive(self, cmo):

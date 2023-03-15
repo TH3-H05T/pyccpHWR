@@ -3,8 +3,8 @@
 
 import unittest
 
-from pyccp import ccp
-from pyccp.master import Master
+from pyccpHWR import ccp
+from pyccpHWR.master import Master
 
 class TestMaster(unittest.TestCase):
 

@@ -25,11 +25,11 @@ __copyright__="""
 
 import logging
 
-from pyccp.utils import SingletonBase
+from pyccpHWR.utils import SingletonBase
 
 class Logger(SingletonBase):
 
-    LOGGER_BASE_NAME = 'pyccp'
+    LOGGER_BASE_NAME = 'pyccpHWR'
     FORMAT = "[%(levelname)s (%(name)s)]: %(message)s"
 
     def __init__(self, name, level = logging.WARN):

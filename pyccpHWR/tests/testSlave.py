@@ -3,8 +3,8 @@
 
 import unittest
 
-from pyccp import ccp
-from pyccp.slave import Slave
+from pyccpHWR import ccp
+from pyccpHWR.slave import Slave
 
 
 def createMessageObject(message):

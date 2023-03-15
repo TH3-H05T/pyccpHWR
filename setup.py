@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='pyccpHWR',
     version='0.1',
-    packages=['pyccp', 'pyccp.tests'],
+    packages=['pyccpHWR', 'pyccpHWR.tests'],
     url='https://github.com/TH3-H05T/pyccpHWR',
     license='',
     author='aryam',
